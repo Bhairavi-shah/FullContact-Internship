@@ -55,7 +55,9 @@ class FullContactClient(object):
         self._wait_for_rate_limit()
 
         req = urllib2.Request('https://api.fullcontact.com/v3/person.enrich')
-        req.add_header('Authorization', 'Bearer GRQeXFWbPGQ8uJsPssjWmm8BWqbYUPUk')
+        req.add_header('Authorization', 'Bearer 
+                       #Insert key here
+                       ')
         data = json.dumps({
             "email": email
         })
